@@ -1,11 +1,11 @@
 package main
 
 import (
+	"backend/controllers"
 	"backend/database"
 	"backend/models"
 	"backend/routes"
 	"github.com/gin-gonic/gin"
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/controllers"
 	_ "github.com/icattlecoder/godaemon"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"

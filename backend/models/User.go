@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/database"
+	"backend/database"
 	"github.com/jinzhu/gorm"
 	"golang.org/x/crypto/bcrypt"
 )

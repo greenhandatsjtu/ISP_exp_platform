@@ -1,6 +1,7 @@
 package middlewares
 
 import (
+	"backend/controllers"
 	"backend/database"
 	"backend/models"
 	"backend/utils"
@@ -8,7 +9,6 @@ import (
 	gormadapter "github.com/casbin/gorm-adapter/v2"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/controllers"
 	"log"
 	"net/http"
 	"strings"

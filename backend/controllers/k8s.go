@@ -1,13 +1,13 @@
 package controllers
 
 import (
+	"backend/database"
 	"backend/models"
 	"context"
 	"encoding/json"
 	"flag"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/database"
 	"io/ioutil"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

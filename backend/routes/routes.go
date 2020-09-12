@@ -1,11 +1,11 @@
 package routes
 
 import (
+	"backend/controllers"
 	"backend/middlewares"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/redis"
 	"github.com/gin-gonic/gin"
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/controllers"
 )
 
 func InitRoutes(router *gin.Engine) {

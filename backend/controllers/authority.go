@@ -1,10 +1,10 @@
 package controllers
 
 import (
+	"backend/database"
 	"backend/models"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/greenhandatsjtu/ISP_exp_platform/backend/database"
 	"net/http"
 )
 
