@@ -1,7 +1,7 @@
 package models
 
 import (
-	"backend/database"
+	"github.com/greenhandatsjtu/ISP_exp_platform/backend/database"
 	"github.com/jinzhu/gorm"
 )
 

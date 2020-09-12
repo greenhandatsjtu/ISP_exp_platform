@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"backend/models"
 	"github.com/bxcodec/faker/v3"
 	"github.com/casbin/casbin/v2"
+	"github.com/greenhandatsjtu/ISP_exp_platform/backend/models"
 	"github.com/jinzhu/gorm"
 	"github.com/jinzhu/now"
 	"golang.org/x/crypto/bcrypt"

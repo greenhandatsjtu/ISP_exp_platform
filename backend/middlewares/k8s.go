@@ -1,10 +1,10 @@
 package middlewares
 
 import (
-	"backend/controllers"
 	"backend/database"
 	"backend/models"
 	"github.com/gin-gonic/gin"
+	"github.com/greenhandatsjtu/ISP_exp_platform/backend/controllers"
 	"net/http"
 	"time"
 )
