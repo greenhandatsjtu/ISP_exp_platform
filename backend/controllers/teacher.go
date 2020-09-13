@@ -103,7 +103,6 @@ func GetTeacherOwnCourses(c *gin.Context) {
 	})
 }
 
-//NOTE: new
 // @Summary 分配课程助教
 // @Description 根据课程ID分配助教，以json传入助教ID即可，需要注意该操作会覆盖之前的助教，所以需要将所有助教ID都传入
 // @Tags Teacher

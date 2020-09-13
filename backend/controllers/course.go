@@ -274,7 +274,6 @@ func PostCourseExperiment(c *gin.Context) {
 	}
 }
 
-//NOTE: new
 // PostCourseGrade godoc
 // @Tags Course
 // @Summary 上传课程成绩
@@ -314,7 +313,6 @@ func PostCourseGrade(c *gin.Context) {
 	})
 }
 
-//NOTE: new
 // UpdateCourseGrade godoc
 // @Tags Course
 // @Summary 更新课程成绩
@@ -354,7 +352,6 @@ func UpdateCourseGrade(c *gin.Context) {
 	})
 }
 
-//NOTE: new
 // AssignStudents godoc
 // @Tags Course
 // @Summary 为课程分配教师
