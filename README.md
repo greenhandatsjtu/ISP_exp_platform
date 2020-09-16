@@ -7,7 +7,7 @@
 
 推荐使用[easzlab](https://github.com/easzlab)/[kubeasz](https://github.com/easzlab/kubeasz)脚本安装，也可自行安装。
 
-> **注**：为K8S集群安装插件时会遇到`ImagePullBackOff`问题，这是因为国内的网络问题导致拉去镜像失败。可以在阿里云申请一个自己的加速器（https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors），然后修改`/etc/docker/daemon.json`中的`registry-mirrors`，并执行以下命令重启docker即可：
+> **注**：为K8S集群安装插件时会遇到`ImagePullBackOff`问题，这是因为国内的网络问题导致拉去镜像失败。可以在阿里云申请一个自己的加速器（ https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors ），然后修改`/etc/docker/daemon.json`中的`registry-mirrors`，并执行以下命令重启docker即可：
 >
 > ```bash
 > sudo systemctl daemon-reload
