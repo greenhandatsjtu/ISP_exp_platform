@@ -18,8 +18,10 @@ func main() {
 	//migrate
 	database.Db.AutoMigrate(&models.User{}, &models.Role{}, &models.Student{}, &models.Teacher{}, &models.Assistant{}, &models.TeachAdmin{}, &models.SysAdmin{}, &models.Course{}, &models.Experiment{}, &models.Notice{}, &models.StudentCourse{}, &models.File{}, &models.StudentExperiment{}, &models.UserResource{})
 	defer database.Db.Close() //close database when exit
+
 	// init database with fake data
 	//utils.InitDatabase(database.Db)
+	//return
 
 	r := gin.Default()
 
