@@ -1,6 +1,36 @@
 # ISP_exp_platform
 《信息安全综合实践》在线实验平台
 
+## 项目截图
+
+### 用户管理
+
+![img.png](images/img.png)
+
+### 角色分配
+
+![img_1.png](images/img_1.png)
+
+### 学生管理
+
+![img_2.png](images/img_2.png)
+
+### 课程管理（教师&助教分配，创建、删除实验）
+
+![img_3.png](images/img_3.png)
+
+### 实验管理（上传YAML、实验手册；开启结束实验；查看实验情况、实验报告提交情况）
+
+![img_4.png](images/img_4.png)
+
+### 实验资源管理（查看学生实验情况、在线情况；终止实验）
+
+![img_5.png](images/img_5.png)
+
+### 学生实验示例
+
+![img_6.png](images/img_6.png)
+
 ## 运行项目
 
 ### 搭建K8S环境
